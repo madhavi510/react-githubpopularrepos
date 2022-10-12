@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.repository-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8ff;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+  width: 220px;
+  border-radius: 10px;
+}
+.item-image {
+  height: 120px;
+  width: 120px;
+  border-radius: 10px;
+}
+.item-title {
+  font-size: 20px;
+  font-family: 'roboto';
+  color: #e73959;
+}
+.repositoryItemDetails-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon-image {
+  height: 30px;
+  width: 30px;
+  margin-right: 15px;
+}
+.text {
+  font-size: 15px;
+  font-family: 'roboto';
+}
